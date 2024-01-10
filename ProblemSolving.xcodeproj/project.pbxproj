@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F86D1DF22B4E889300E6FB7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D1DF12B4E889300E6FB7F /* main.swift */; };
+		F86D1E0B2B4EC33A00E6FB7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D1E0A2B4EC33A00E6FB7F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,14 @@
 
 /* Begin PBXFileReference section */
 		F86D1DEE2B4E889300E6FB7F /* ProblemSolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolving; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86D1DF12B4E889300E6FB7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F86D1DF92B4E896000E6FB7F /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
+		F86D1DFB2B4EAACF00E6FB7F /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
+		F86D1DFE2B4EAC8400E6FB7F /* 15652.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15652.swift; sourceTree = "<group>"; };
+		F86D1E022B4EADB400E6FB7F /* ProblemSolving-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProblemSolving-Bridging-Header.h"; sourceTree = "<group>"; };
+		F86D1E032B4EAF1D00E6FB7F /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
+		F86D1E052B4EB20700E6FB7F /* 14888.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14888.swift; sourceTree = "<group>"; };
+		F86D1E082B4EBEB900E6FB7F /* 10852.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10852.swift; sourceTree = "<group>"; };
+		F86D1E0A2B4EC33A00E6FB7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +64,8 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				F86D1E072B4EBEAE00E6FB7F /* Sort */,
 				F86D1DF82B4E88DF00E6FB7F /* BruteForce */,
-				F86D1DF12B4E889300E6FB7F /* main.swift */,
 			);
 			path = ProblemSolving;
 			sourceTree = "<group>";
@@ -66,8 +73,23 @@
 		F86D1DF82B4E88DF00E6FB7F /* BruteForce */ = {
 			isa = PBXGroup;
 			children = (
+				F86D1E022B4EADB400E6FB7F /* ProblemSolving-Bridging-Header.h */,
+				F86D1DF92B4E896000E6FB7F /* 15651.swift */,
+				F86D1DFB2B4EAACF00E6FB7F /* 15649.swift */,
+				F86D1DFE2B4EAC8400E6FB7F /* 15652.swift */,
+				F86D1E032B4EAF1D00E6FB7F /* 15650.swift */,
+				F86D1E052B4EB20700E6FB7F /* 14888.swift */,
 			);
 			path = BruteForce;
+			sourceTree = "<group>";
+		};
+		F86D1E072B4EBEAE00E6FB7F /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F86D1E082B4EBEB900E6FB7F /* 10852.swift */,
+				F86D1E0A2B4EC33A00E6FB7F /* main.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +124,7 @@
 				TargetAttributes = {
 					F86D1DED2B4E889300E6FB7F = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -128,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86D1DF22B4E889300E6FB7F /* main.swift in Sources */,
+				F86D1E0B2B4EC33A00E6FB7F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +274,16 @@
 		F86D1DF62B4E889300E6FB7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/BruteForce/ProblemSolving-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -260,8 +291,15 @@
 		F86D1DF72B4E889300E6FB7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/BruteForce/ProblemSolving-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
