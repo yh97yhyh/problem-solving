@@ -11,4 +11,5 @@
 import Foundation
 
 let n = Int(readLine()!)!
+let nums = readLine()!.split(separator: " ").map { Int(String($0))! }
 
