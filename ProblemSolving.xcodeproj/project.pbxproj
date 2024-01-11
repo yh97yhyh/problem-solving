@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F86D1E192B50041F00E6FB7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D1E182B50041F00E6FB7F /* main.swift */; };
+		F86D1E202B50416900E6FB7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D1E1F2B50416900E6FB7F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +37,10 @@
 		F86D1E112B4FB45700E6FB7F /* 7795.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7795.swift; sourceTree = "<group>"; };
 		F86D1E132B4FBCB800E6FB7F /* 2470.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2470.swift; sourceTree = "<group>"; };
 		F86D1E152B4FF50300E6FB7F /* 2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2805.swift; sourceTree = "<group>"; };
-		F86D1E182B50041F00E6FB7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F86D1E182B50041F00E6FB7F /* 1806.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1806.swift; sourceTree = "<group>"; };
+		F86D1E1A2B503B5500E6FB7F /* 13115.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13115.swift; sourceTree = "<group>"; };
+		F86D1E1C2B503D8400E6FB7F /* 1253.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1253.swift; sourceTree = "<group>"; };
+		F86D1E1F2B50416900E6FB7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				F86D1E1E2B50415B00E6FB7F /* Graph */,
 				F86D1E172B50041200E6FB7F /* TwoPointer */,
 				F86D1E102B4FB44600E6FB7F /* BinarySerach */,
 				F86D1E072B4EBEAE00E6FB7F /* Sort */,
@@ -115,9 +119,19 @@
 		F86D1E172B50041200E6FB7F /* TwoPointer */ = {
 			isa = PBXGroup;
 			children = (
-				F86D1E182B50041F00E6FB7F /* main.swift */,
+				F86D1E182B50041F00E6FB7F /* 1806.swift */,
+				F86D1E1A2B503B5500E6FB7F /* 13115.swift */,
+				F86D1E1C2B503D8400E6FB7F /* 1253.swift */,
 			);
 			path = TwoPointer;
+			sourceTree = "<group>";
+		};
+		F86D1E1E2B50415B00E6FB7F /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F86D1E1F2B50416900E6FB7F /* main.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86D1E192B50041F00E6FB7F /* main.swift in Sources */,
+				F86D1E202B50416900E6FB7F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
