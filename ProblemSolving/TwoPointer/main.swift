@@ -5,7 +5,8 @@
 //  Created by 영현 on 2024/01/11.
 //
 
-// 두 용액
-// 2470
+// 1806
+// 부분합
 
 import Foundation
+
