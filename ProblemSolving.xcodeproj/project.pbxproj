@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8DA328D2B54342F0044278F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA328C2B54342F0044278F /* main.swift */; };
+		F8FA25832B553D4C0085B1DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25822B553D4C0085B1DB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +46,9 @@
 		F8D09CB22B527BE0005146CC /* 14502.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14502.swift; sourceTree = "<group>"; };
 		F8D09CB52B528127005146CC /* 2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2178.swift; sourceTree = "<group>"; };
 		F8DA328A2B542E350044278F /* 1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1697.swift; sourceTree = "<group>"; };
-		F8DA328C2B54342F0044278F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F8DA328C2B54342F0044278F /* 3055.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3055.swift; sourceTree = "<group>"; };
+		F8FA25802B5518CF0085B1DB /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
+		F8FA25822B553D4C0085B1DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				F8FA257F2B5518B40085B1DB /* Tree */,
 				F86D1E1E2B50415B00E6FB7F /* Graph */,
 				F86D1E172B50041200E6FB7F /* TwoPointer */,
 				F86D1E102B4FB44600E6FB7F /* BinarySerach */,
@@ -141,9 +144,18 @@
 				F8D09CB22B527BE0005146CC /* 14502.swift */,
 				F8D09CB52B528127005146CC /* 2178.swift */,
 				F8DA328A2B542E350044278F /* 1697.swift */,
-				F8DA328C2B54342F0044278F /* main.swift */,
+				F8DA328C2B54342F0044278F /* 3055.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		F8FA257F2B5518B40085B1DB /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA25802B5518CF0085B1DB /* 11725.swift */,
+				F8FA25822B553D4C0085B1DB /* main.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DA328D2B54342F0044278F /* main.swift in Sources */,
+				F8FA25832B553D4C0085B1DB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
