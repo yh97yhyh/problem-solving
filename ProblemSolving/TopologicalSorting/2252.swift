@@ -15,7 +15,6 @@ let n = inputs1[0]
 let m = inputs1[1] // 키를 비교한 횟수
 
 var adj: [[Int]] = Array(repeating: [], count: n+1)
-var visited = Array(repeating: false, count: n+1)
 var indeg = Array(repeating: 0, count: n+1) // indegree
 
 for _ in 0..<m {
