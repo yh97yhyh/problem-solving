@@ -22,7 +22,6 @@ let n = Int(readLine()!)!
 for i in 0..<n {
     let inputs = readLine()!.split(separator: " ")
     students.append(Student(name: String(inputs[0]), korean: Int(inputs[1])!, english: Int(inputs[2])!, math: Int(inputs[3])!))
-    
 }
 
 let sortedStudents = students.sorted {
