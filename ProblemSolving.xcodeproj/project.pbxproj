@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8D395702B57AA120000F8AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3956F2B57AA120000F8AD /* main.swift */; };
+		F8CD74312B58EEDB00194DD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD74302B58EEDB00194DD3 /* main.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,9 @@
 		F86D1E1A2B503B5500E6FB7F /* 13115.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13115.swift; sourceTree = "<group>"; };
 		F86D1E1C2B503D8400E6FB7F /* 1253.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1253.swift; sourceTree = "<group>"; };
 		F86D1E1F2B50416900E6FB7F /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
+		F8CD742C2B58EBB800194DD3 /* 11066.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11066.swift; sourceTree = "<group>"; };
+		F8CD742E2B58EE5200194DD3 /* 9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9663.swift; sourceTree = "<group>"; };
+		F8CD74302B58EEDB00194DD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F8CE4C432B56351900702D75 /* 1916.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1916.swift; sourceTree = "<group>"; };
 		F8CE4C452B5648E300702D75 /* 1753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1753.swift; sourceTree = "<group>"; };
 		F8D09CAE2B526E07005146CC /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
@@ -51,7 +54,7 @@
 		F8D395692B57880F0000F8AD /* 9095.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9095.swift; sourceTree = "<group>"; };
 		F8D3956B2B578EB40000F8AD /* 11726.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11726.swift; sourceTree = "<group>"; };
 		F8D3956D2B5796970000F8AD /* 2579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2579.swift; sourceTree = "<group>"; };
-		F8D3956F2B57AA120000F8AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F8D3956F2B57AA120000F8AD /* 11057.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11057.swift; sourceTree = "<group>"; };
 		F8DA328A2B542E350044278F /* 1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1697.swift; sourceTree = "<group>"; };
 		F8DA328C2B54342F0044278F /* 3055.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3055.swift; sourceTree = "<group>"; };
 		F8FA25802B5518CF0085B1DB /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				F86D1DFE2B4EAC8400E6FB7F /* 15652.swift */,
 				F86D1E032B4EAF1D00E6FB7F /* 15650.swift */,
 				F86D1E052B4EB20700E6FB7F /* 14888.swift */,
+				F8CD742E2B58EE5200194DD3 /* 9663.swift */,
+				F8CD74302B58EEDB00194DD3 /* main.swift */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -179,7 +184,8 @@
 				F8D395692B57880F0000F8AD /* 9095.swift */,
 				F8D3956B2B578EB40000F8AD /* 11726.swift */,
 				F8D3956D2B5796970000F8AD /* 2579.swift */,
-				F8D3956F2B57AA120000F8AD /* main.swift */,
+				F8D3956F2B57AA120000F8AD /* 11057.swift */,
+				F8CD742C2B58EBB800194DD3 /* 11066.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -262,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D395702B57AA120000F8AD /* main.swift in Sources */,
+				F8CD74312B58EEDB00194DD3 /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
