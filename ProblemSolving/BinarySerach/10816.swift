@@ -13,9 +13,9 @@
 import Foundation
 
 let n = Int(readLine()!)! // 숫자 카드 개수
-var cards =  readLine()!.split(separator: " ").map { Int(String($0))! }
+var cards = readLine()!.split(separator: " ").map { Int(String($0))! }
 let m = Int(readLine()!)!
-var targets =  readLine()!.split(separator: " ").map { Int(String($0))! }
+var targets = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 cards.sort()
 
