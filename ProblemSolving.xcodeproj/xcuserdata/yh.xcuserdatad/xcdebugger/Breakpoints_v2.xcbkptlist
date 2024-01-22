@@ -36,5 +36,53 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE478402-5DBA-4A71-8614-B0C6055024C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProblemSolving/TopologicalSorting/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "FE478402-5DBA-4A71-8614-B0C6055024C9 - fdef7a8669ed9244"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ProblemSolving"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yh/Desktop/study/problem-solving/ProblemSolving/TopologicalSorting/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "2080">
+               </Location>
+               <Location
+                  uuid = "FE478402-5DBA-4A71-8614-B0C6055024C9 - c79464f85e434d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Substring) -&gt; Swift.Int in ProblemSolving"
+                  moduleName = "ProblemSolving"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yh/Desktop/study/problem-solving/ProblemSolving/TopologicalSorting/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
