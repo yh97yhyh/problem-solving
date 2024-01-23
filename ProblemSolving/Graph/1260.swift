@@ -38,32 +38,33 @@ for i in 1..<graph.count {
 
 //print(graph)
 
-func dfs(_ node: Int) {
-    dfsVisited[node] = true
+func dfs(_ x: Int) {
+    dfsVisited[x] = true
+//    dfsResult += "\(x) "
     
-    for nextNode in graph[node] {
-        if !dfsVisited[nextNode] {
-            dfsResult += "\(nextNode) "
-            dfs(nextNode)
+    for y in graph[x] {
+        if !dfsVisited[y] {
+            dfsResult += "\(y) "
+            dfs(y)
         }
     }
 }
 
 func bfs(_ startNode: Int) {
-    var needVisited: [Int] = [startNode] // queue
+    var toVisits: [Int] = [startNode] // queue
     bfsVisited[startNode] = true
 
     while true {
-        if needVisited.isEmpty {
+        if toVisits.isEmpty {
             break
         }
 
-        let needVisitedNode = needVisited.removeFirst()
-        for nextNode in graph[needVisitedNode] {
-            if !bfsVisited[nextNode] {
-                bfsResult += "\(nextNode) "
-                needVisited.append(nextNode)
-                bfsVisited[nextNode] = true
+        let x = toVisits.removeFirst()
+        for y in graph[x] {
+            if !bfsVisited[y] {
+                bfsResult += "\(y) "
+                toVisits.append(y)
+                bfsVisited[y] = true
             }
         }
     }
