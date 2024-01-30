@@ -34,11 +34,11 @@ for _ in 0..<m {
     }
 }
 
-for i in 1..<tree.count-1 {
-    if tree[i].isEmpty {
-        
-    }
-}
+//for i in 1..<tree.count-1 {
+//    if tree[i].isEmpty {
+//        
+//    }
+//}
 
 print(tree)
 
