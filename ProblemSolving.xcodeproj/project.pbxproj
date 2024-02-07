@@ -76,6 +76,16 @@
 		F8C53A122B738A2B00B167FE /* 10798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10798.swift; sourceTree = "<group>"; };
 		F8C53A142B738E7600B167FE /* 10679.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10679.swift; sourceTree = "<group>"; };
 		F8C53A162B7393E000B167FE /* 1251.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1251.swift; sourceTree = "<group>"; };
+		F8C53A182B739A5700B167FE /* 1652.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1652.swift; sourceTree = "<group>"; };
+		F8C53A1C2B73BE1100B167FE /* minWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minWindowSubstring.swift; sourceTree = "<group>"; };
+		F8C53A1F2B73C8E300B167FE /* treeConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeConstructor.swift; sourceTree = "<group>"; };
+		F8C53A212B73CEF800B167FE /* codelandUsernameValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codelandUsernameValidation.swift; sourceTree = "<group>"; };
+		F8C53A232B73D21E00B167FE /* findIntersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findIntersection.swift; sourceTree = "<group>"; };
+		F8C53A252B73D98F00B167FE /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
+		F8C53A272B73DBE300B167FE /* firstReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstReverse.swift; sourceTree = "<group>"; };
+		F8C53A2A2B73DCE100B167FE /* firstFactorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstFactorial.swift; sourceTree = "<group>"; };
+		F8C53A2C2B73DFB300B167FE /* longestWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestWord.swift; sourceTree = "<group>"; };
+		F8C53A2E2B73E21800B167FE /* brackerMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brackerMatcher.swift; sourceTree = "<group>"; };
 		F8C73C1A2B5BB2B700E00110 /* 5639.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5639.swift; sourceTree = "<group>"; };
 		F8C73C1C2B5BBB7F00E00110 /* 15900.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15900.swift; sourceTree = "<group>"; };
 		F8C73C1E2B5BC43D00E00110 /* 20364.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20364.swift; sourceTree = "<group>"; };
@@ -175,6 +185,7 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				F8C53A292B73DC7200B167FE /* Math */,
 				F8D9E4F22B5FEF8500196C66 /* String */,
 				F8D395682B5787FF0000F8AD /* DynamicProgramming */,
 				F8CE4C422B56350700702D75 /* ShortestPath */,
@@ -261,6 +272,7 @@
 				F8D818E22B623AA60004B370 /* 2003.swift */,
 				F8D818E42B6242B10004B370 /* 11728.swift */,
 				F8BB45D62B6F8BBA004BD5B4 /* 15565.swift */,
+				F8C53A1C2B73BE1100B167FE /* minWindowSubstring.swift */,
 			);
 			path = TwoPointer;
 			sourceTree = "<group>";
@@ -285,6 +297,14 @@
 				F8BB45D42B6F8418004BD5B4 /* 18404.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		F8C53A292B73DC7200B167FE /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				F8C53A2A2B73DCE100B167FE /* firstFactorial.swift */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 		F8CE4C422B56350700702D75 /* ShortestPath */ = {
@@ -343,6 +363,13 @@
 				F8C53A122B738A2B00B167FE /* 10798.swift */,
 				F8C53A142B738E7600B167FE /* 10679.swift */,
 				F8C53A162B7393E000B167FE /* 1251.swift */,
+				F8C53A182B739A5700B167FE /* 1652.swift */,
+				F8C53A212B73CEF800B167FE /* codelandUsernameValidation.swift */,
+				F8C53A232B73D21E00B167FE /* findIntersection.swift */,
+				F8C53A252B73D98F00B167FE /* results.swift */,
+				F8C53A272B73DBE300B167FE /* firstReverse.swift */,
+				F8C53A2C2B73DFB300B167FE /* longestWord.swift */,
+				F8C53A2E2B73E21800B167FE /* brackerMatcher.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -360,6 +387,7 @@
 				F8D9E4E82B5FAF4A00196C66 /* 4083.swift */,
 				F8DA12552B636DF100278AAA /* 9489.swift */,
 				F8DA12572B636E2100278AAA /* 14267.swift */,
+				F8C53A1F2B73C8E300B167FE /* treeConstructor.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";

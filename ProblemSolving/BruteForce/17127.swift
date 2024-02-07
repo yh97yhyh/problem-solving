@@ -12,26 +12,26 @@ import Foundation
 
 let n = Int(readLine()!)!
 let flowers = readLine()!.split(separator: " ").map { Int(String($0))! }
-let multiplyMaxCount = n-3
+let len = flowers.count
 
-func cal(_ x: Int) -> Int {
-    var sum = 0
-    var multiplySum = 1
-    
-    for i in 0..<n {
-        if i >= x && i < x+multiplyMaxCount {
-            multiplySum *= flowers[i]
-        } else {
-            sum += flowers[i]
+var currentMax = 0
+for i in 1...len-3 {
+    for j in i+1...len-2 {
+        for k in j+1...len-1 {
+            let arr1 = flowers[0..<i]
+            let arr2 = flowers[i..<j]
+            let arr3 = flowers[j..<k]
+            let arr4 = flowers[k..<len]
+            let sum1 = arr1.reduce(1, *)
+            let sum2 = arr2.reduce(1, *)
+            let sum3 = arr3.reduce(1, *)
+            let sum4 = arr4.reduce(1, *)
+            var sum = sum1 + sum2 + sum3 + sum4
+            if currentMax < sum {
+                currentMax = sum
+            }
         }
     }
-    
-    return sum + multiplySum
 }
 
-var maxSum = 0
-for i in 0..<n-3 {
-    maxSum = max(maxSum, cal(i))
-}
-print(maxSum)
-
+print(currentMax)
