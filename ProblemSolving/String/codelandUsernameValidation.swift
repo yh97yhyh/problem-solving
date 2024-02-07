@@ -9,6 +9,8 @@
 
 import Foundation
 
+let test = "__bbbbbbb"
+
 func CodelandUsernameValidation(_ str: String) -> String {
 
   // code goes here
@@ -25,10 +27,11 @@ func CodelandUsernameValidation(_ str: String) -> String {
 }
 
 func isNotNumber(_ c: Character) -> Bool {
-  if let num = Int(String(c)) {
-    return false
-  } else {
+  let val = Int(UnicodeScalar(String(c))!.value)
+  if (val >= 65 && val <= 90) || (val >= 97 && val <= 122) {
     return true
+  } else {
+    return false
   }
 }
 
@@ -44,3 +47,5 @@ func isAllValid3 (_ str: String) -> Bool {
   }
   return true
 }
+
+CodelandUsernameValidation(test)

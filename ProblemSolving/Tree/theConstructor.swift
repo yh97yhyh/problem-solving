@@ -9,12 +9,15 @@
 
 import Foundation
 
+let test = ["(2,5)", "(2,6)"] // false
+
 func TreeConstructor(_ strArr: [String]) -> String {
   // code goes here
   // Note: feel free to modify the return type of this function
 
   var result = ""
   var trees: [Int: [Int]] = [:]
+  var childs: [Int] = []
 
   for str in strArr {
     var newStr = ""
@@ -26,6 +29,12 @@ func TreeConstructor(_ strArr: [String]) -> String {
     } else {
       trees[nums[1]] = [nums[0]]
     }
+
+    if childs.contains(nums[0]) {
+      return "false"
+    } else {
+      childs.append(nums[0])
+    }
   }
 
   for tree in trees {
@@ -35,3 +44,5 @@ func TreeConstructor(_ strArr: [String]) -> String {
   }
   return "true"
 }
+
+print(TreeConstructor(test))

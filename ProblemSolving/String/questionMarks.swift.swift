@@ -1,5 +1,5 @@
 //
-//  results.swift
+//  questionMarks.swift
 //  ProblemSolving
 //
 //  Created by 영현 on 2/8/24.
@@ -9,7 +9,14 @@
 
 import Foundation
 
+let test1 = "9???1???9??1???9" // false
+let test2 = "mbbv???????????4??????ddsdsdcc9?" // false
+let test3 = "5??aaaaaaaaaaaaaaaaaaa?5?5" // false
+let test4 = "9???1???9???1???9" // true
+let test5 = "5??aaaaaaaaaaaaaaaaaaa?5?a??5" // true
+
 func QuestionsMarks(_ str: String) -> String {
+
   let len = str.count
   var left = -1
   var right = -1
@@ -23,11 +30,12 @@ func QuestionsMarks(_ str: String) -> String {
         left = n
       } else {
         right = n
-        if left + right >= 10 {
+        if left + right == 10 {
           if checkValid(check) {
             isValid = true
           } else {
             isValid = false
+            break
           }
         }
         check = ""
@@ -41,7 +49,6 @@ func QuestionsMarks(_ str: String) -> String {
   }
 
   return isValid ? "true" : "false"
-
 }
 
 func checkValid(_ str: String) -> Bool {
@@ -55,3 +62,4 @@ func checkValid(_ str: String) -> Bool {
   return cnt >= 3 ? true : false
 }
 
+print(QuestionsMarks(test2))

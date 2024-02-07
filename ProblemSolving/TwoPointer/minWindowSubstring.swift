@@ -11,8 +11,10 @@
 
 import Foundation
 
-let test1 = ["ahffaksfajeeubsne", "jefaa"]
-let test2 = ["aaffhkksemckelloe", "fhea"]
+let test1 = ["aaabaaddae", "aed"] // dae
+let test2 = ["aaffsfsfasfasfasfasfasfacasfafe", "fafe"] // fafe
+let test3 = ["caae", "cae"] // caae
+let test4 = ["cccaabbbbrr", "rbac"] // caabbbbr
 
 func MinWindowSubstring(_ strArr: [String]) -> String {
     
@@ -28,7 +30,7 @@ func MinWindowSubstring(_ strArr: [String]) -> String {
     var isStart = true
     
     while true {
-        if !isStart && start >= end || end >= str.count {
+        if !isStart && start >= end {
             break
         }
         isStart = false
@@ -38,17 +40,20 @@ func MinWindowSubstring(_ strArr: [String]) -> String {
             if currentStr.count < shortedStr.count {
                 shortedStr = currentStr
             }
-            start += 1
             currentStr.removeFirst()
+            start += 1
         } else {
-            currentStr += String(strArray[end])
-            end += 1
+            if end == str.count {
+                currentStr.removeFirst()
+                start += 1
+            } else {
+                currentStr += String(strArray[end])
+                end += 1
+            }
         }
-        
     }
     
-    let result = String(shortedStr.prefix(shortedStr.count-1))
-    return result
+    return shortedStr
 }
 
 func checkAllContains(_ str: String, _ targetStr: String) -> Bool {
@@ -67,8 +72,10 @@ func checkAllContains(_ str: String, _ targetStr: String) -> Bool {
         }
     }
     
-    return false
+    return target.isEmpty
 }
 
 print(MinWindowSubstring(test1))
 print(MinWindowSubstring(test2))
+print(MinWindowSubstring(test3))
+print(MinWindowSubstring(test4))
