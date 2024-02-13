@@ -43,6 +43,18 @@
 		F86D1E1A2B503B5500E6FB7F /* 13115.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13115.swift; sourceTree = "<group>"; };
 		F86D1E1C2B503D8400E6FB7F /* 1253.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1253.swift; sourceTree = "<group>"; };
 		F86D1E1F2B50416900E6FB7F /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
+		F8AA078D2B7BDC40009F3198 /* plusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plusMinus.swift; sourceTree = "<group>"; };
+		F8AA078F2B7BDD93009F3198 /* miniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniMaxSum.swift; sourceTree = "<group>"; };
+		F8AA07912B7BDECD009F3198 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
+		F8AA07932B7BDFDA009F3198 /* sparseArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparseArrays.swift; sourceTree = "<group>"; };
+		F8AA07952B7BE14C009F3198 /* lonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lonelyInteger.swift; sourceTree = "<group>"; };
+		F8AA07972B7BE2AF009F3198 /* flippingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flippingBits.swift; sourceTree = "<group>"; };
+		F8AA07992B7BE4E1009F3198 /* diagonalDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagonalDifference.swift; sourceTree = "<group>"; };
+		F8AA079B2B7BE622009F3198 /* countingSort1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countingSort1.swift; sourceTree = "<group>"; };
+		F8AA079D2B7BE842009F3198 /* pangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pangrams.swift; sourceTree = "<group>"; };
+		F8AA079F2B7BEA58009F3198 /* permutingTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutingTwoArrays.swift; sourceTree = "<group>"; };
+		F8AA07A12B7BEFDD009F3198 /* subarrayDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subarrayDivision.swift; sourceTree = "<group>"; };
+		F8AA07A32B7BF071009F3198 /* xorStrings2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xorStrings2.swift; sourceTree = "<group>"; };
 		F8B6E4DF2B68C9D600772BA2 /* 1516.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1516.swift; sourceTree = "<group>"; };
 		F8B6E4E22B6A6A6C00772BA2 /* 1003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1003.swift; sourceTree = "<group>"; };
 		F8B6E4E42B6A72AE00772BA2 /* 10870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10870.swift; sourceTree = "<group>"; };
@@ -186,13 +198,13 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
-		F83651052B7B66B7001F9057 /* HackerRank1MonthKit */ = {
+		F83651052B7B66B7001F9057 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				F836510C2B7B771D001F9057 /* Rank1MonthKit */,
+				F836510C2B7B771D001F9057 /* 1MonthKit */,
 				F83651062B7B6C2E001F9057 /* test */,
 			);
-			path = HackerRank1MonthKit;
+			path = HackerRank;
 			sourceTree = "<group>";
 		};
 		F83651062B7B6C2E001F9057 /* test */ = {
@@ -204,19 +216,31 @@
 			path = test;
 			sourceTree = "<group>";
 		};
-		F836510B2B7B7712001F9057 /* Week1 */ = {
+		F836510B2B7B7712001F9057 /* week1 */ = {
 			isa = PBXGroup;
 			children = (
+				F8AA078D2B7BDC40009F3198 /* plusMinus.swift */,
+				F8AA078F2B7BDD93009F3198 /* miniMaxSum.swift */,
+				F8AA07912B7BDECD009F3198 /* timeConversion.swift */,
+				F8AA07932B7BDFDA009F3198 /* sparseArrays.swift */,
+				F8AA07952B7BE14C009F3198 /* lonelyInteger.swift */,
+				F8AA07972B7BE2AF009F3198 /* flippingBits.swift */,
+				F8AA07992B7BE4E1009F3198 /* diagonalDifference.swift */,
+				F8AA079B2B7BE622009F3198 /* countingSort1.swift */,
+				F8AA079D2B7BE842009F3198 /* pangrams.swift */,
+				F8AA079F2B7BEA58009F3198 /* permutingTwoArrays.swift */,
+				F8AA07A12B7BEFDD009F3198 /* subarrayDivision.swift */,
+				F8AA07A32B7BF071009F3198 /* xorStrings2.swift */,
 			);
-			path = Week1;
+			path = week1;
 			sourceTree = "<group>";
 		};
-		F836510C2B7B771D001F9057 /* Rank1MonthKit */ = {
+		F836510C2B7B771D001F9057 /* 1MonthKit */ = {
 			isa = PBXGroup;
 			children = (
-				F836510B2B7B7712001F9057 /* Week1 */,
+				F836510B2B7B7712001F9057 /* week1 */,
 			);
-			path = Rank1MonthKit;
+			path = 1MonthKit;
 			sourceTree = "<group>";
 		};
 		F86D1DE52B4E889300E6FB7F = {
@@ -238,7 +262,7 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
-				F83651052B7B66B7001F9057 /* HackerRank1MonthKit */,
+				F83651052B7B66B7001F9057 /* HackerRank */,
 				F83651042B7B6681001F9057 /* Algorithm */,
 				F8FA25892B55A4600085B1DB /* FileIO.swift */,
 				F86D1E022B4EADB400E6FB7F /* ProblemSolving-Bridging-Header.h */,
