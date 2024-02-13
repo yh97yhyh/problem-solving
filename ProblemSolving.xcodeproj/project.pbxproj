@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F83651072B7B6C3A001F9057 /* BitwiseAnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwiseAnd.swift; sourceTree = "<group>"; };
+		F83651092B7B70E1001F9057 /* EqualizingArrayElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizingArrayElements.swift; sourceTree = "<group>"; };
 		F86D1DEE2B4E889300E6FB7F /* ProblemSolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolving; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86D1DF92B4E896000E6FB7F /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
 		F86D1DFB2B4EAACF00E6FB7F /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
@@ -166,6 +168,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F83651042B7B6681001F9057 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F8C53A292B73DC7200B167FE /* Math */,
+				F8D9E4F22B5FEF8500196C66 /* String */,
+				F8D395682B5787FF0000F8AD /* DynamicProgramming */,
+				F8CE4C422B56350700702D75 /* ShortestPath */,
+				F8FA25842B554D920085B1DB /* TopologicalSorting */,
+				F8FA257F2B5518B40085B1DB /* Tree */,
+				F86D1E1E2B50415B00E6FB7F /* Graph */,
+				F86D1E172B50041200E6FB7F /* TwoPointer */,
+				F86D1E102B4FB44600E6FB7F /* BinarySerach */,
+				F86D1E072B4EBEAE00E6FB7F /* Sort */,
+				F86D1DF82B4E88DF00E6FB7F /* BruteForce */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		F83651052B7B66B7001F9057 /* HackerRank1MonthKit */ = {
+			isa = PBXGroup;
+			children = (
+				F836510C2B7B771D001F9057 /* Rank1MonthKit */,
+				F83651062B7B6C2E001F9057 /* test */,
+			);
+			path = HackerRank1MonthKit;
+			sourceTree = "<group>";
+		};
+		F83651062B7B6C2E001F9057 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				F83651072B7B6C3A001F9057 /* BitwiseAnd.swift */,
+				F83651092B7B70E1001F9057 /* EqualizingArrayElements.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		F836510B2B7B7712001F9057 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		F836510C2B7B771D001F9057 /* Rank1MonthKit */ = {
+			isa = PBXGroup;
+			children = (
+				F836510B2B7B7712001F9057 /* Week1 */,
+			);
+			path = Rank1MonthKit;
+			sourceTree = "<group>";
+		};
 		F86D1DE52B4E889300E6FB7F = {
 			isa = PBXGroup;
 			children = (
@@ -185,18 +238,11 @@
 		F86D1DF02B4E889300E6FB7F /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
-				F8C53A292B73DC7200B167FE /* Math */,
-				F8D9E4F22B5FEF8500196C66 /* String */,
-				F8D395682B5787FF0000F8AD /* DynamicProgramming */,
-				F8CE4C422B56350700702D75 /* ShortestPath */,
-				F8FA25842B554D920085B1DB /* TopologicalSorting */,
-				F8FA257F2B5518B40085B1DB /* Tree */,
-				F86D1E1E2B50415B00E6FB7F /* Graph */,
-				F86D1E172B50041200E6FB7F /* TwoPointer */,
-				F86D1E102B4FB44600E6FB7F /* BinarySerach */,
-				F86D1E072B4EBEAE00E6FB7F /* Sort */,
-				F86D1DF82B4E88DF00E6FB7F /* BruteForce */,
+				F83651052B7B66B7001F9057 /* HackerRank1MonthKit */,
+				F83651042B7B6681001F9057 /* Algorithm */,
 				F8FA25892B55A4600085B1DB /* FileIO.swift */,
+				F86D1E022B4EADB400E6FB7F /* ProblemSolving-Bridging-Header.h */,
+				F8ED66612B74A97700EA85A2 /* Test */,
 			);
 			path = ProblemSolving;
 			sourceTree = "<group>";
@@ -204,7 +250,6 @@
 		F86D1DF82B4E88DF00E6FB7F /* BruteForce */ = {
 			isa = PBXGroup;
 			children = (
-				F86D1E022B4EADB400E6FB7F /* ProblemSolving-Bridging-Header.h */,
 				F86D1DF92B4E896000E6FB7F /* 15651.swift */,
 				F86D1DFB2B4EAACF00E6FB7F /* 15649.swift */,
 				F86D1DFE2B4EAC8400E6FB7F /* 15652.swift */,
@@ -372,6 +417,13 @@
 				F8C53A2E2B73E21800B167FE /* brackerMatcher.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		F8ED66612B74A97700EA85A2 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		F8FA257F2B5518B40085B1DB /* Tree */ = {
@@ -596,7 +648,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/BruteForce/ProblemSolving-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/ProblemSolving-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -613,7 +665,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/BruteForce/ProblemSolving-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProblemSolving/ProblemSolving-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
