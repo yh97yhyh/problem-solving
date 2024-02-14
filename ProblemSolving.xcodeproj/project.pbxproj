@@ -155,6 +155,11 @@
 		F8DEF00F2B5A52CC00E15C71 /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
 		F8DEF0112B5A563A00E15C71 /* 2644.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2644.swift; sourceTree = "<group>"; };
 		F8DEF0132B5A5BFB00E15C71 /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
+		F8F394EC2B7C44BB00DA4325 /* salesByMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salesByMatch.swift; sourceTree = "<group>"; };
+		F8F394ED2B7C46C800DA4325 /* zigZagSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigZagSequence.swift; sourceTree = "<group>"; };
+		F8F394EE2B7C492E00DA4325 /* drawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingBook.swift; sourceTree = "<group>"; };
+		F8F394EF2B7CB71200DA4325 /* towerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = towerBreakers.swift; sourceTree = "<group>"; };
+		F8F394F02B7CBD2200DA4325 /* caesarCiper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caesarCiper.swift; sourceTree = "<group>"; };
 		F8F6BFDB2B5D493A00AC5909 /* 3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3273.swift; sourceTree = "<group>"; };
 		F8F6BFDD2B5D4BCC00AC5909 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
 		F8F6BFDF2B5D5B2100AC5909 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
@@ -238,6 +243,7 @@
 		F836510C2B7B771D001F9057 /* 1MonthKit */ = {
 			isa = PBXGroup;
 			children = (
+				F8F394EB2B7C449C00DA4325 /* week2 */,
 				F836510B2B7B7712001F9057 /* week1 */,
 			);
 			path = 1MonthKit;
@@ -448,6 +454,18 @@
 			children = (
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		F8F394EB2B7C449C00DA4325 /* week2 */ = {
+			isa = PBXGroup;
+			children = (
+				F8F394EC2B7C44BB00DA4325 /* salesByMatch.swift */,
+				F8F394ED2B7C46C800DA4325 /* zigZagSequence.swift */,
+				F8F394EE2B7C492E00DA4325 /* drawingBook.swift */,
+				F8F394EF2B7CB71200DA4325 /* towerBreakers.swift */,
+				F8F394F02B7CBD2200DA4325 /* caesarCiper.swift */,
+			);
+			path = week2;
 			sourceTree = "<group>";
 		};
 		F8FA257F2B5518B40085B1DB /* Tree */ = {
