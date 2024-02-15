@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +162,11 @@
 		F8F394EF2B7CB71200DA4325 /* towerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = towerBreakers.swift; sourceTree = "<group>"; };
 		F8F394F02B7CBD2200DA4325 /* caesarCiper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caesarCiper.swift; sourceTree = "<group>"; };
 		F8F394F12B7D9CEB00DA4325 /* maxMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxMin.swift; sourceTree = "<group>"; };
+		F8F394F32B7E00F200DA4325 /* gridChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridChallenge.swift; sourceTree = "<group>"; };
+		F8F394F42B7E07A100DA4325 /* primeDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeDates.swift; sourceTree = "<group>"; };
+		F8F394F52B7E097400DA4325 /* sherlockAndArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sherlockAndArray.swift; sourceTree = "<group>"; };
+		F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursiveDigitSum.swift; sourceTree = "<group>"; };
+		F8F394F82B7E166C00DA4325 /* counterGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterGame.swift; sourceTree = "<group>"; };
 		F8F6BFDB2B5D493A00AC5909 /* 3273.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3273.swift; sourceTree = "<group>"; };
 		F8F6BFDD2B5D4BCC00AC5909 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
 		F8F6BFDF2B5D5B2100AC5909 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
@@ -466,6 +472,11 @@
 				F8F394EF2B7CB71200DA4325 /* towerBreakers.swift */,
 				F8F394F02B7CBD2200DA4325 /* caesarCiper.swift */,
 				F8F394F12B7D9CEB00DA4325 /* maxMin.swift */,
+				F8F394F32B7E00F200DA4325 /* gridChallenge.swift */,
+				F8F394F42B7E07A100DA4325 /* primeDates.swift */,
+				F8F394F52B7E097400DA4325 /* sherlockAndArray.swift */,
+				F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */,
+				F8F394F82B7E166C00DA4325 /* counterGame.swift */,
 			);
 			path = week2;
 			sourceTree = "<group>";
@@ -561,6 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
