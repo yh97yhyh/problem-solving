@@ -61,6 +61,11 @@
 		F88C30472B8593AF00C0F4A4 /* 009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009.swift; sourceTree = "<group>"; };
 		F88C30482B8594CD00C0F4A4 /* 010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 010.swift; sourceTree = "<group>"; };
 		F88C30492B85958800C0F4A4 /* 011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 011.swift; sourceTree = "<group>"; };
+		F89EB4E92B9AD1A7005DC1BD /* 007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 007.swift; sourceTree = "<group>"; };
+		F89EB4EB2B9AD536005DC1BD /* 036.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 036.swift; sourceTree = "<group>"; };
+		F89EB4ED2B9ADC9E005DC1BD /* 008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008.swift; sourceTree = "<group>"; };
+		F89EB4F02B9AE086005DC1BD /* 037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 037.swift; sourceTree = "<group>"; };
+		F89EB4F22B9AE366005DC1BD /* 009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009.swift; sourceTree = "<group>"; };
 		F8AA078D2B7BDC40009F3198 /* plusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plusMinus.swift; sourceTree = "<group>"; };
 		F8AA078F2B7BDD93009F3198 /* miniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniMaxSum.swift; sourceTree = "<group>"; };
 		F8AA07912B7BDECD009F3198 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversion.swift; sourceTree = "<group>"; };
@@ -497,6 +502,8 @@
 				F8F510F92B99E17A00377B1E /* 033.swift */,
 				F8F510FA2B99E3FA00377B1E /* 034.swift */,
 				F8F510FC2B99E9BC00377B1E /* 035.swift */,
+				F89EB4EB2B9AD536005DC1BD /* 036.swift */,
+				F89EB4F02B9AE086005DC1BD /* 037.swift */,
 			);
 			path = level1;
 			sourceTree = "<group>";
@@ -619,6 +626,9 @@
 				F8F510ED2B99A36000377B1E /* 004.swift */,
 				F8F510F12B99BF9100377B1E /* 005.swift */,
 				F8F510F32B99D93A00377B1E /* 006.swift */,
+				F89EB4E92B9AD1A7005DC1BD /* 007.swift */,
+				F89EB4ED2B9ADC9E005DC1BD /* 008.swift */,
+				F89EB4F22B9AE366005DC1BD /* 009.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
