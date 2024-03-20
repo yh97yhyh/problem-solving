@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F834A7C52BAB538200A87F3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F834A7C42BAB538200A87F3C /* main.swift */; };
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
-		F8F985382BAAC96800217F02 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F985372BAAC96800217F02 /* main.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +30,8 @@
 		F80B3F032B7EB4960046E317 /* 1018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1018.swift; sourceTree = "<group>"; };
 		F80E79ED2B9EC7B000843717 /* 017.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 017.swift; sourceTree = "<group>"; };
 		F80E79F02B9ECD0500843717 /* 048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 048.swift; sourceTree = "<group>"; };
+		F834A7C22BAB4A6700A87F3C /* 055.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 055.swift; sourceTree = "<group>"; };
+		F834A7C42BAB538200A87F3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F83651072B7B6C3A001F9057 /* BitwiseAnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwiseAnd.swift; sourceTree = "<group>"; };
 		F83651092B7B70E1001F9057 /* EqualizingArrayElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizingArrayElements.swift; sourceTree = "<group>"; };
 		F86D1DEE2B4E889300E6FB7F /* ProblemSolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolving; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,7 +262,7 @@
 		F8F8805C2B9E2F1100AE009C /* 016.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 016.swift; sourceTree = "<group>"; };
 		F8F985332BAAC1AB00217F02 /* 053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 053.swift; sourceTree = "<group>"; };
 		F8F985352BAAC6C200217F02 /* 054.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 054.swift; sourceTree = "<group>"; };
-		F8F985372BAAC96800217F02 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F8F985372BAAC96800217F02 /* 029.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 029.swift; sourceTree = "<group>"; };
 		F8FA25802B5518CF0085B1DB /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
 		F8FA25822B553D4C0085B1DB /* 1068.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1068.swift; sourceTree = "<group>"; };
 		F8FA25852B554DA10085B1DB /* 2252.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2252.swift; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 				F8F3609A2BA9C99800EB1885 /* 052.swift */,
 				F8F985332BAAC1AB00217F02 /* 053.swift */,
 				F8F985352BAAC6C200217F02 /* 054.swift */,
+				F834A7C22BAB4A6700A87F3C /* 055.swift */,
 			);
 			path = level1;
 			sourceTree = "<group>";
@@ -703,7 +706,8 @@
 				F8F360642BA815AF00EB1885 /* 026.swift */,
 				F8F3609C2BA9D15000EB1885 /* 027.swift */,
 				F8F3609E2BA9DBB800EB1885 /* 028.swift */,
-				F8F985372BAAC96800217F02 /* main.swift */,
+				F8F985372BAAC96800217F02 /* 029.swift */,
+				F834A7C42BAB538200A87F3C /* main.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -800,7 +804,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
-				F8F985382BAAC96800217F02 /* main.swift in Sources */,
+				F834A7C52BAB538200A87F3C /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
