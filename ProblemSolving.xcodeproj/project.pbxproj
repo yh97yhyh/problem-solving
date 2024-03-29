@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8EEB40F2BB5A41A00EEF43D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEB40E2BB5A41A00EEF43D /* main.swift */; };
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
@@ -210,7 +209,15 @@
 		F8E9EBDC2BB444520032961C /* 2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2839.swift; sourceTree = "<group>"; };
 		F8E9EBDF2BB4492F0032961C /* 100815.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 100815.swift; sourceTree = "<group>"; };
 		F8EEB40C2BB5A1EE00EEF43D /* 4949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4949.swift; sourceTree = "<group>"; };
-		F8EEB40E2BB5A41A00EEF43D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F8EEB40E2BB5A41A00EEF43D /* 12789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12789.swift; sourceTree = "<group>"; };
+		F8EEB4102BB5BB3200EEF43D /* 24479.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24479.swift; sourceTree = "<group>"; };
+		F8EEB4122BB5C09E00EEF43D /* 24480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24480.swift; sourceTree = "<group>"; };
+		F8EEB4142BB5C15C00EEF43D /* 2444.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2444.swift; sourceTree = "<group>"; };
+		F8EEB4162BB5C4AC00EEF43D /* 7562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7562.swift; sourceTree = "<group>"; };
+		F8F1AE3A2BB6B00900AAAA4E /* 24416.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24416.swift; sourceTree = "<group>"; };
+		F8F1AE3C2BB6B26700AAAA4E /* 9184.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9184.swift; sourceTree = "<group>"; };
+		F8F1AE3E2BB6B74100AAAA4E /* 1904.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1904.swift; sourceTree = "<group>"; };
+		F8F1AE402BB6BBEF00AAAA4E /* 9461.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9461.swift; sourceTree = "<group>"; };
 		F8F360642BA815AF00EB1885 /* 026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 026.swift; sourceTree = "<group>"; };
 		F8F360662BA81C4D00EB1885 /* 050.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 050.swift; sourceTree = "<group>"; };
 		F8F360682BA820AA00EB1885 /* 051.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 051.swift; sourceTree = "<group>"; };
@@ -329,7 +336,7 @@
 				F80AB6CE2BB59FDF001111BC /* 10773.swift */,
 				F80AB6D02BB5A0B6001111BC /* 9012.swift */,
 				F8EEB40C2BB5A1EE00EEF43D /* 4949.swift */,
-				F8EEB40E2BB5A41A00EEF43D /* main.swift */,
+				F8EEB40E2BB5A41A00EEF43D /* 12789.swift */,
 			);
 			path = StackQueueDeck;
 			sourceTree = "<group>";
@@ -546,6 +553,10 @@
 				F8D9E4EC2B5FD3A400196C66 /* 11403.swift */,
 				F8DA12532B636A1E00278AAA /* 1389.swift */,
 				F8BB45D42B6F8418004BD5B4 /* 18404.swift */,
+				F8EEB4102BB5BB3200EEF43D /* 24479.swift */,
+				F8EEB4122BB5C09E00EEF43D /* 24480.swift */,
+				F8EEB4142BB5C15C00EEF43D /* 2444.swift */,
+				F8EEB4162BB5C4AC00EEF43D /* 7562.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -677,6 +688,10 @@
 				F8B6E4E82B6A7E6600772BA2 /* 15991.swift */,
 				F8B6E4EC2B6B552000772BA2 /* 11052.swift */,
 				F8B6E4EE2B6B5D5A00772BA2 /* 15990.swift */,
+				F8F1AE3A2BB6B00900AAAA4E /* 24416.swift */,
+				F8F1AE3C2BB6B26700AAAA4E /* 9184.swift */,
+				F8F1AE3E2BB6B74100AAAA4E /* 1904.swift */,
+				F8F1AE402BB6BBEF00AAAA4E /* 9461.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -928,7 +943,6 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
-				F8EEB40F2BB5A41A00EEF43D /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
