@@ -7,6 +7,7 @@
 
 // 회의실 배정
 // 1931
+// 시작시간도 고려해야 한다
 
 import Foundation
 
@@ -20,3 +21,23 @@ for _ in 0..<N {
     meetings.append((start, end))
 }
 
+meetings.sort(by: {
+    if $0.1 == $1.1 {
+        return $0.0 < $1.0
+    } else {
+        return $0.1 < $1.1
+
+    }
+})
+
+var answer = 0
+var pre = (0, 0)
+for cur in meetings {
+    let start = cur.0
+    let end = cur.1
+    if start >= pre.1 {
+        answer += 1
+        pre = cur
+    }
+}
+print(answer)
