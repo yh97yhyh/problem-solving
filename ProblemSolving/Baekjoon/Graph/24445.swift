@@ -1,12 +1,13 @@
 //
-//  main.swift
+//  24445.swift
 //  ProblemSolving
 //
-//  Created by 영현 on 3/29/24.
+//  Created by 영현 on 4/1/24.
 //
 
-// 알고리즘 수업 - 너비 우선 탐색 1
+// 알고리즘 수업 - 너비 우선 탐색 2
 // 24444
+
 
 import Foundation
 
@@ -27,7 +28,7 @@ for _ in 0..<M {
 }
 
 for i in 0..<graph.count {
-    graph[i].sort()
+    graph[i].sort(by: >)
 }
 
 var count = 1
@@ -35,14 +36,14 @@ var count = 1
 //    var queue: [Int] = []
 //    queue.append(start)
 //    order[start] = 1
-//    
+//
 //    while true {
 //        if queue.isEmpty {
 //            break
 //        }
-//        
+//
 //        let x = queue.removeFirst()
-//        
+//
 //        for y in graph[x] {
 //            if order[y] == -1 {
 //                count += 1
