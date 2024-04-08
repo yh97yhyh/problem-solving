@@ -8,6 +8,10 @@
 // 사칙연산
 // https://school.programmers.co.kr/learn/courses/30/lessons/1843
 
+// 설명
+// https://velog.io/@longroadhome/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-LV.4-%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0
+// https://school.programmers.co.kr/questions/35224
+
 import Foundation
 
 func solution(_ arr: [String]) -> Int {
