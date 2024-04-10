@@ -8,6 +8,7 @@
 // 가장 긴 증가하는 부분 수열
 // 11053
 // LIS 알고리즘 https://velog.io/@min-ji99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B0%80%EC%9E%A5-%EA%B8%B4-%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94-%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4LIS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
+// https://st-lab.tistory.com/137
 
 import Foundation
 
