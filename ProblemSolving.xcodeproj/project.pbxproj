@@ -10,6 +10,7 @@
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
+		F8FFF2A02C043F170015DAE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FFF29E2C042F920015DAE6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -342,7 +343,7 @@
 		F8FFF2952C041E660015DAE6 /* 1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1010.swift; sourceTree = "<group>"; };
 		F8FFF29A2C0429750015DAE6 /* 25192.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25192.swift; sourceTree = "<group>"; };
 		F8FFF29C2C042B260015DAE6 /* 26069.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26069.swift; sourceTree = "<group>"; };
-		F8FFF29E2C042F920015DAE6 /* 14889_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14889_.swift; sourceTree = "<group>"; };
+		F8FFF29E2C042F920015DAE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,7 +513,7 @@
 				F8E9EBC92BB429650032961C /* 19532.swift */,
 				F8E9EBDA2BB440830032961C /* 1436.swift */,
 				F8E9EBDC2BB444520032961C /* 2839.swift */,
-				F8FFF29E2C042F920015DAE6 /* 14889_.swift */,
+				F8FFF29E2C042F920015DAE6 /* main.swift */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -1029,6 +1030,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
+				F8FFF2A02C043F170015DAE6 /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
