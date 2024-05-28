@@ -30,6 +30,7 @@ func dfs(depth: Int, start: Int) {
         team2 = 0
         
         for i in 0..<N {
+            
             for j in 0..<N {
                 if visited[i] && visited[j] {
                     team1 += table[i][j]
