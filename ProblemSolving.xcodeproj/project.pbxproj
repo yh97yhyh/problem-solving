@@ -10,6 +10,7 @@
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
+		F8FFF2B22C08AAD80015DAE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FFF2B12C08AAD80015DAE6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -345,6 +346,8 @@
 		F8FFF29E2C042F920015DAE6 /* 14889.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14889.swift; sourceTree = "<group>"; };
 		F8FFF2AA2C056EA00015DAE6 /* 2565.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2565.swift; sourceTree = "<group>"; };
 		F8FFF2AC2C05792A0015DAE6 /* 13305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13305.swift; sourceTree = "<group>"; };
+		F8FFF2AF2C08A03B0015DAE6 /* 2110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2110.swift; sourceTree = "<group>"; };
+		F8FFF2B12C08AAD80015DAE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -554,6 +557,7 @@
 				F8D9E4E62B5FA86D00196C66 /* 13702.swift */,
 				F8BB45D02B6CA77A004BD5B4 /* 17266.swift */,
 				F8BB45D22B6CAF31004BD5B4 /* 6136.swift */,
+				F8FFF2AF2C08A03B0015DAE6 /* 2110.swift */,
 			);
 			path = BinarySerach;
 			sourceTree = "<group>";
@@ -568,6 +572,7 @@
 				F8D818E22B623AA60004B370 /* 2003.swift */,
 				F8D818E42B6242B10004B370 /* 11728.swift */,
 				F8BB45D62B6F8BBA004BD5B4 /* 15565.swift */,
+				F8FFF2B12C08AAD80015DAE6 /* main.swift */,
 			);
 			path = TwoPointer;
 			sourceTree = "<group>";
@@ -1033,6 +1038,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
+				F8FFF2B22C08AAD80015DAE6 /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
