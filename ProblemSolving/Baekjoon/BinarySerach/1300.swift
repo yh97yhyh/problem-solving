@@ -8,6 +8,7 @@
 // K번째 수
 // 1300
 // A[i][j] = i * j
+// B[k] = x -> x보다 작거나 같은 원소의 갯수가 최소 k개
 
 import Foundation
 
