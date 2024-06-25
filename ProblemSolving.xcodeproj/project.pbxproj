@@ -29,6 +29,7 @@
 		F806E2BE2C285D390034F893 /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
 		F806E2C02C28643F0034F893 /* 7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576.swift; sourceTree = "<group>"; };
 		F806E2C22C29AA400034F893 /* 7576_ti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576_ti.swift; sourceTree = "<group>"; };
+		F806E2CB2C2ABCA80034F893 /* 2563.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2563.swift; sourceTree = "<group>"; };
 		F80AB6CB2BB59D44001111BC /* 28278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28278.swift; sourceTree = "<group>"; };
 		F80AB6CE2BB59FDF001111BC /* 10773.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10773.swift; sourceTree = "<group>"; };
 		F80AB6D02BB5A0B6001111BC /* 9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9012.swift; sourceTree = "<group>"; };
@@ -364,6 +365,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F806E2CA2C2ABC9D0034F893 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				F806E2CB2C2ABCA80034F893 /* 2563.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		F806E2CD2C2ABED80034F893 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		F806E2CE2C2AC03D0034F893 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F80AB6CA2BB59D2C001111BC /* StackQueueDeck */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,8 +402,11 @@
 		F83651042B7B6681001F9057 /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
+				F806E2CE2C2AC03D0034F893 /* New Group */,
 				F8D9E4F22B5FEF8500196C66 /* String */,
 				F8E8D2F52BB5339D00C27031 /* Deepening 1 */,
+				F806E2CA2C2ABC9D0034F893 /* Array */,
+				F806E2CD2C2ABED80034F893 /* Math */,
 				F86D1DF82B4E88DF00E6FB7F /* BruteForce */,
 				F86D1E072B4EBEAE00E6FB7F /* Sort */,
 				F8E9EBDE2BB4490A0032961C /* SetMap */,

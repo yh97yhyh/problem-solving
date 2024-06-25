@@ -30,10 +30,10 @@ func bfs() {
     
     var head = 0
     while true {
-        
         if head >= toVisits.count {
             break
         }
+        
         let cur = toVisits[head]
         head += 1
         
