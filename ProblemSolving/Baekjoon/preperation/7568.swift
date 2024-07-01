@@ -5,6 +5,9 @@
 //  Created by 영현 on 6/30/24.
 //
 
+// 덩치
+// 7568
+
 import Foundation
 
 let n = Int(readLine()!)!
