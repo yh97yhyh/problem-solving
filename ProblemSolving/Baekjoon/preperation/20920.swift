@@ -16,7 +16,6 @@ let m = input[1] // 길이가 m 이상인 단어만 외움
 
 var words: [String: (Int, Int)] = [:] // count, len
 
-
 for _ in 0..<n {
     let str = readLine()!
     let len = str.count
