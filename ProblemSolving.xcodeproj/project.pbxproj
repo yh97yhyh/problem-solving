@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81E3E012C5294DC00A0D478 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E3E002C5294DC00A0D478 /* main.swift */; };
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
@@ -51,6 +52,7 @@
 		F8170A3D2C47AE3400CAAEA7 /* 1446.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1446.swift; sourceTree = "<group>"; };
 		F8170A3F2C4A260200CAAEA7 /* 17615.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17615.swift; sourceTree = "<group>"; };
 		F81E3DFC2C4E82C200A0D478 /* 2531.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2531.swift; sourceTree = "<group>"; };
+		F81E3E002C5294DC00A0D478 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F824ADEF2C3AA699004B2B76 /* 20920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20920.swift; sourceTree = "<group>"; };
 		F824ADF12C3AA91F004B2B76 /* 21921.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21921.swift; sourceTree = "<group>"; };
 		F824ADF32C3AB022004B2B76 /* 1515.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1515.swift; sourceTree = "<group>"; };
@@ -414,7 +416,29 @@
 		F806E2CE2C2AC03D0034F893 /* preperation */ = {
 			isa = PBXGroup;
 			children = (
+				F81E3DFE2C5294C700A0D478 /* Silver */,
+				F81E3DFF2C5294D100A0D478 /* Gold */,
+			);
+			path = preperation;
+			sourceTree = "<group>";
+		};
+		F80AB6CA2BB59D2C001111BC /* StackQueueDeck */ = {
+			isa = PBXGroup;
+			children = (
+				F80AB6CB2BB59D44001111BC /* 28278.swift */,
+				F80AB6CE2BB59FDF001111BC /* 10773.swift */,
+				F80AB6D02BB5A0B6001111BC /* 9012.swift */,
+				F8EEB40C2BB5A1EE00EEF43D /* 4949.swift */,
+				F8EEB40E2BB5A41A00EEF43D /* 12789.swift */,
+			);
+			path = StackQueueDeck;
+			sourceTree = "<group>";
+		};
+		F81E3DFE2C5294C700A0D478 /* Silver */ = {
+			isa = PBXGroup;
+			children = (
 				F806E2CF2C2AC07D0034F893 /* 9655.swift */,
+				F81E3E002C5294DC00A0D478 /* main.swift */,
 				F806E2D12C2AC4D70034F893 /* 10431.swift */,
 				F806E2D32C2C403E0034F893 /* 8979.swift */,
 				F806E2D52C3184240034F893 /* 7568.swift */,
@@ -446,19 +470,14 @@
 				F8170A3F2C4A260200CAAEA7 /* 17615.swift */,
 				F81E3DFC2C4E82C200A0D478 /* 2531.swift */,
 			);
-			path = preperation;
+			path = Silver;
 			sourceTree = "<group>";
 		};
-		F80AB6CA2BB59D2C001111BC /* StackQueueDeck */ = {
+		F81E3DFF2C5294D100A0D478 /* Gold */ = {
 			isa = PBXGroup;
 			children = (
-				F80AB6CB2BB59D44001111BC /* 28278.swift */,
-				F80AB6CE2BB59FDF001111BC /* 10773.swift */,
-				F80AB6D02BB5A0B6001111BC /* 9012.swift */,
-				F8EEB40C2BB5A1EE00EEF43D /* 4949.swift */,
-				F8EEB40E2BB5A41A00EEF43D /* 12789.swift */,
 			);
-			path = StackQueueDeck;
+			path = Gold;
 			sourceTree = "<group>";
 		};
 		F83651042B7B6681001F9057 /* Baekjoon */ = {
@@ -1133,6 +1152,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
+				F81E3E012C5294DC00A0D478 /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
