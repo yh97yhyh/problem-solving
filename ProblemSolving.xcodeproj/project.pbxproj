@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8EE1E892C68DB330070201F /* 12919.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE1E882C68DB330070201F /* 12919.swift */; };
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
@@ -261,6 +262,7 @@
 		F8E9EBDA2BB440830032961C /* 1436.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1436.swift; sourceTree = "<group>"; };
 		F8E9EBDC2BB444520032961C /* 2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2839.swift; sourceTree = "<group>"; };
 		F8E9EBDF2BB4492F0032961C /* 100815.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 100815.swift; sourceTree = "<group>"; };
+		F8EE1E882C68DB330070201F /* 12919.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12919.swift; sourceTree = "<group>"; };
 		F8EEB40C2BB5A1EE00EEF43D /* 4949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4949.swift; sourceTree = "<group>"; };
 		F8EEB40E2BB5A41A00EEF43D /* 12789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12789.swift; sourceTree = "<group>"; };
 		F8EEB4102BB5BB3200EEF43D /* 24479.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24479.swift; sourceTree = "<group>"; };
@@ -479,6 +481,7 @@
 			children = (
 				F8279E662C57C34A00CF46E7 /* 15989.swift */,
 				F8279E6A2C5B20AD00CF46E7 /* 13549.swift */,
+				F8EE1E882C68DB330070201F /* 12919.swift */,
 			);
 			path = Gold;
 			sourceTree = "<group>";
@@ -1155,6 +1158,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
+				F8EE1E892C68DB330070201F /* 12919.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
