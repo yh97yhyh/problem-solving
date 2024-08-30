@@ -34,7 +34,7 @@ for i in 0..<n {
     let input2 = readLine()!.split(separator: " ").map { Int(String($0))! }
     for j in 0..<n {
         land[i][j] = input2[j]
-    }
+    }  
 }
 
 func isInBounds(_ x: Int, _ y: Int) -> Bool {
