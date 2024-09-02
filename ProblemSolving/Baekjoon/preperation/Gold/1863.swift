@@ -9,6 +9,7 @@
 // 스카이라인
 // 건물의 높이가 높아지면 그 뒤에 하나의 건물이 더 있다
 // 건물의 높이가 낮아지면 뒤에 있는 건물이 끝났다
+// https://velog.io/@leetaekyu2077/Python-%EB%B0%B1%EC%A4%80-1863%EB%B2%88-%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9D%BC%EC%9D%B8-%EC%89%AC%EC%9A%B4%EA%B1%B0
 
 import Foundation
 
