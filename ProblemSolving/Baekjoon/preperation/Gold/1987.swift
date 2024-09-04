@@ -7,7 +7,7 @@
 
 // 알파벳
 // 1987
-// 시간초과 -> 비트마스크
+// 시간초과 -> 비트마스크 https://swift-library.tistory.com/110
 
 import Foundation
 
