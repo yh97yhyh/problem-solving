@@ -15,11 +15,13 @@ let n = Int(readLine()!)!
 
 var dp = Array(repeating: false, count: 1001)
 dp[1] = true
-dp[2] = true
+dp[2] = false
 dp[3] = true
 
-for i in 4...n {
-    dp[i] = !dp[i-1] || !dp[i-3]
+if n >= 4 {
+    for i in 4...n {
+        dp[i] = !dp[i-1] || !dp[i-3]
+    }
 }
 
 dp[n] == true ? print("SK") : print("CY")
