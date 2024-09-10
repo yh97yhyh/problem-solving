@@ -5,7 +5,7 @@
 //  Created by 영현 on 7/4/24.
 //
 
-// 카드 2
+// 카드2
 // 2164
 
 import Foundation
