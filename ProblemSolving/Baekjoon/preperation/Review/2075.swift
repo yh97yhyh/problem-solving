@@ -8,6 +8,7 @@
 // N번째 큰 수
 // 2075
 // https://my-coding-notes.tistory.com/556
+// https://www.acmicpc.net/status?problem_id=2075&result_id=4&from_problem=1&language_id=74
 
 import Foundation
 
