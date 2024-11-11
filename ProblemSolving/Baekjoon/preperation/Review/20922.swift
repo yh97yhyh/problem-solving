@@ -27,7 +27,7 @@ if n == 1 {
     var maxLength = 0
     
     for right in 0..<n {
-        let curRightNum = nums[right]
+        let curRightNum = 2nums[right]
         frequency[curRightNum, default: 0] += 1
         
 
