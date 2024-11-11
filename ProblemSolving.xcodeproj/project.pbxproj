@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84868B92CE2A88400D571E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84868B82CE2A88400D571E0 /* main.swift */; };
 		F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F394F62B7E125600DA4325 /* recursiveDigitSum.swift */; };
 		F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F510FA2B99E3FA00377B1E /* 034.swift */; };
 		F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FA25892B55A4600085B1DB /* FileIO.swift */; };
@@ -78,6 +79,8 @@
 		F83651092B7B70E1001F9057 /* EqualizingArrayElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizingArrayElements.swift; sourceTree = "<group>"; };
 		F84868B22CE1CCAB00D571E0 /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
 		F84868B42CE23F5900D571E0 /* 14940.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14940.swift; sourceTree = "<group>"; };
+		F84868B62CE24C9F00D571E0 /* 20922.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20922.swift; sourceTree = "<group>"; };
+		F84868B82CE2A88400D571E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F85BCD612BBDACE400418BD2 /* 11399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11399.swift; sourceTree = "<group>"; };
 		F85BCD632BBDAE2600418BD2 /* 1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1541.swift; sourceTree = "<group>"; };
 		F85BCD682BBDB2B200418BD2 /* 11659.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11659.swift; sourceTree = "<group>"; };
@@ -912,6 +915,8 @@
 				F88CB16E2C9AE5880040CE59 /* 1138.swift */,
 				F84868B22CE1CCAB00D571E0 /* 1260.swift */,
 				F84868B42CE23F5900D571E0 /* 14940.swift */,
+				F84868B62CE24C9F00D571E0 /* 20922.swift */,
+				F84868B82CE2A88400D571E0 /* main.swift */,
 			);
 			path = Review;
 			sourceTree = "<group>";
@@ -1257,6 +1262,7 @@
 			files = (
 				F8F510FB2B99E3FA00377B1E /* 034.swift in Sources */,
 				F8F394F72B7E125600DA4325 /* recursiveDigitSum.swift in Sources */,
+				F84868B92CE2A88400D571E0 /* main.swift in Sources */,
 				F8FA258A2B55A4600085B1DB /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
