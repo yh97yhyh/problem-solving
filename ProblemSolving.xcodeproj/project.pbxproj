@@ -242,6 +242,7 @@
 		F8C74A022C78C7A0009EF728 /* 16234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16234.swift; sourceTree = "<group>"; };
 		F8C782402BBACDF4003A6738 /* 11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11047.swift; sourceTree = "<group>"; };
 		F8C782422BBAD0AA003A6738 /* 1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1931.swift; sourceTree = "<group>"; };
+		F8CC153B2D5212D200D20288 /* 3085.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3085.swift; sourceTree = "<group>"; };
 		F8CC57802B60F79600366EFB /* 16472.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16472.swift; sourceTree = "<group>"; };
 		F8CD742C2B58EBB800194DD3 /* 11066.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11066.swift; sourceTree = "<group>"; };
 		F8CD742E2B58EE5200194DD3 /* 9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9663.swift; sourceTree = "<group>"; };
@@ -530,6 +531,7 @@
 		F812AD062D50555D00B2020B /* algorithm3 */ = {
 			isa = PBXGroup;
 			children = (
+				F8CC153A2D5212B200D20288 /* bruteFroce */,
 				F812AD072D50559200B2020B /* simulation */,
 			);
 			path = algorithm3;
@@ -992,6 +994,14 @@
 				F8FFF2AC2C05792A0015DAE6 /* 13305.swift */,
 			);
 			path = Greedy;
+			sourceTree = "<group>";
+		};
+		F8CC153A2D5212B200D20288 /* bruteFroce */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC153B2D5212D200D20288 /* 3085.swift */,
+			);
+			path = bruteFroce;
 			sourceTree = "<group>";
 		};
 		F8CE4C422B56350700702D75 /* ShortestPath */ = {
